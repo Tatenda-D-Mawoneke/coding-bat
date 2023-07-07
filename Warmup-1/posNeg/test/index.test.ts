@@ -20,4 +20,8 @@ describe("posNeg", () => {
     const result = posNeg(-1, -1, true);
     assert.equal(result, true);
   });
+  it("should return false when the values of both parameters (num 1 & num2) are negative AND the parameter named 'negative' is false", () => {
+    const result = posNeg(-1, -1, false);
+    assert.equal(result, false);
+  });
 });
