@@ -1,5 +1,5 @@
 {
-  "name": "sleepin",
+  "name": "intmax",
   "version": "1.0.0",
   "description": "",
   "scripts": {
@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/chai": "^4.3.5",
+    "@types/jest": "^29.5.3",
     "@types/mocha": "^10.0.1",
     "@types/typescript": "^2.0.0",
     "chai": "^4.3.7",
